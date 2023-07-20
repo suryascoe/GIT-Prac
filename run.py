@@ -12,3 +12,7 @@ def isValidPassword(password):
     
     return False
 
+if isValidUserName("hello"):
+    if isValidPassword("1234"):
+        print("Test Success")
+
